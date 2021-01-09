@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/reservations
+Content-Type: application/json
+
+{
+    "firstName": "Leonel",
+    "lastName": "Zorzoli",
+    "phoneNumber": "555-011-254",
+    "email": "example@gmail.com",
+    "date": "03/12/2020",
+    "hour": "11:30",
+    "totalPeople": "4"
+}

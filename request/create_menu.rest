@@ -1,0 +1,41 @@
+POST http://localhost:3003/api/menu
+Content-Type: application/json
+
+{
+    "name": "BOWLS",
+    "types": [
+        {
+            "items": [
+                {
+                    "name": "Ahi Tuna Poke Bowl",
+                    "description": "Jasmine rice, soy marinated ahi tuna, avocado, cucumber, radish, mango, macadamia nuts",
+                    "price": "21.00"
+                },
+                {
+                    "name": "Salmon Zen Bowl",
+                    "description": "Jasmine rice, daikon, red cabbage, avocado, mushrooms, cucumber, snap peas, sesame salt",
+                    "additions": [
+                        {
+                            "name": "4OZ SALMON",
+                            "price": "22.00"
+                        },
+                        {
+                            "name": "8OZ SALMON",
+                            "price": "27.00"
+                        }
+                    ]
+                },
+                {
+                    "name": "Teriyaki Chicken Rice Bowl",
+                    "description": "Teriyaki chicken, Japanese rice, bok choy, mushrooms, snap peas, cashews",
+                    "price": "20.50"
+                },
+                {
+                    "name": "Thai Chicken Curry Bowl",
+                    "description": "Coconut curry, Thai marinated chicken, mushrooms, steamed jasmine rice, crispy onions",
+                    "price": "23.00"
+                }
+            ]
+        }
+    ]
+}
